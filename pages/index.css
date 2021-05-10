@@ -1,6 +1,6 @@
 /*---------------Root---------------*/
 
-@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 
 /*---------------Header---------------*/
 
@@ -135,6 +135,14 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 @import url(../blocks/resources/__logo/resources__logo.css);
+
+@import url(../blocks/resources/__logo/_name/resources__logo_name_arzamas.css);
+
+@import url(../blocks/resources/__logo/_name/resources__logo_name_n1.css);
+
+@import url(../blocks/resources/__logo/_name/resources__logo_name_strelka.css);
+
+@import url(../blocks/resources/__logo/_name/resources__logo_name_polka.css);
 
 /*---------------Footer---------------*/
 
