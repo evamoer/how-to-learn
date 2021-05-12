@@ -142,14 +142,6 @@
 
 @import url(../blocks/resources/__link/resources__link.css);
 
-@import url(../blocks/resources/__logo/_name/resources__logo_name_arzamas.css);
-
-@import url(../blocks/resources/__logo/_name/resources__logo_name_n1.css);
-
-@import url(../blocks/resources/__logo/_name/resources__logo_name_strelka.css);
-
-@import url(../blocks/resources/__logo/_name/resources__logo_name_polka.css);
-
 /*---------------Footer---------------*/
 
 @import url(../blocks/footer/footer.css);
