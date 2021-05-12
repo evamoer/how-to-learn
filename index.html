@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -70,9 +70,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div><!--/video__iframes-->
       </section><!--/video-->
       
@@ -142,11 +141,11 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Салмана Хана 'Весь мир-школа'">
             <a class="khan__buy-link" href="#" target="_blank">Купить книгу &#10230;</a>
           </div><!--/khan__book-container-->
         </div><!--/khan__container-->
@@ -212,12 +211,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__logo-zone">
-          <a class="resources__logo resources__logo_name_arzamas" href="https://arzamas.academy/" target="_blank"></a>
-          <a class="resources__logo resources__logo_name_n1" href="https://nplus1.ru/" target="_blank"></a>
-          <a class="resources__logo resources__logo_name_strelka" href="https://strelka.com/ru/" target="_blank"></a>
-          <a class="resources__logo resources__logo_name_polka" href="https://polka.academy/" target="_blank"></a>
-        </nav><!--/resources__logo-zone-->
+        <ul class="resources__logo-zone">
+          <li><a class="resources__link" href="https://arzamas.academy/" target="_blank"><img class="resources__logo" src="./images/resources-arzamas.svg" alt="Лого Арзамас"></a></li>
+          <li><a class="resources__link" href="https://nplus1.ru/" target="_blank"><img class="resources__logo" src="./images/resources-n1.svg" alt="Лого N+1"></a></li>
+          <li><a class="resources__link" href="https://strelka.com/ru" target="_blank"><img class="resources__logo" src="./images/resources-strelka.svg" alt="Лого Стрелка"></a></li>
+          <li><a class="resources__link" href="https://polka.academy/" target="_blank"><img class="resources__logo" src="./images/resources-polka.svg" alt="Лого Полка"></a></li>
+        </ul><!--/resources__logo-zone-->
       </section><!--/resources-->
     </main>
     <footer class="footer">
