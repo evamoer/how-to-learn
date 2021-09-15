@@ -2,9 +2,13 @@
 
 @import url(../vendor/normalize.css);
 
-/*---------------Root---------------*/
+/*---------------Page---------------*/
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/page/__header/page__header.css);
+
+@import url(../blocks/page/__content/page__content.css);
 
 /*---------------Header---------------*/
 
@@ -25,6 +29,26 @@
 @import url(../blocks/logo/logo.css);
 
 @import url(../blocks/logo/_place/logo_place_header.css);
+
+/*---------------Content---------------*/
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/content/__description/content__desciption.css);
+
+@import url(../blocks/content/__techniques/content__techniques.css);
+
+@import url(../blocks/content/__oakley/content__oakley.css);
+
+@import url(../blocks/content/__feynman/content__feynman.css);
+
+@import url(../blocks/content/__digits/content__digits.css);
+
+@import url(../blocks/content/__khan/content__khan.css);
+
+@import url(../blocks/content/__kaufman/content__kaufman.css);
+
+@import url(../blocks/content/__resources/content__resources.css);
 
 /*---------------Description---------------*/
 
@@ -149,6 +173,8 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 
 @import url(../blocks/footer/__column/footer__column.css);
+
+@import url(../blocks/footer/__column-list/footer__column-list.css);
 
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 
